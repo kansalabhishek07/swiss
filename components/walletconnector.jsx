@@ -18,7 +18,7 @@ const WalletConnector = () => {
         console.error('Error connecting to MetaMask', error);
       }
     } else {
-      alert('MetaMask is not installed. Please install it to use this app.');
+      alert('MetaMask is not installed. Please install MetaMask to use this app.');
     }
   };
 
@@ -40,3 +40,4 @@ const WalletConnector = () => {
 };
 
 export default WalletConnector;
+

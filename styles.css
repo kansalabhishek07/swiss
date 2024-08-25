@@ -30,8 +30,9 @@ h1 {
 .connect-btn {
   background-color: #ff6f61;
   color: white;
-  padding: 10px 20px;
+  padding: 12px 24px;
   border: none;
+  font-size: 18px;
   border-radius: 30px;
   cursor: pointer;
   transition: background-color 0.3s;
@@ -51,4 +52,18 @@ h1 {
 .wallet-info p {
   margin-bottom: 10px;
   font-size: 1.1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.account-info {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.balance-info {
+  font-size: 18px;
+  font-weight: 600;
 }

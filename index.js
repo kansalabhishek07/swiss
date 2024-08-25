@@ -1,4 +1,4 @@
-import WalletConnector from "../components/walletconnector";
+import WalletConnector from "./components/walletconnector";
 
 export default function Home() {
   return (
