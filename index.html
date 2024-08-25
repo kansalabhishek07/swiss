@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ethereum Wallet Connector</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="wallet-connector">
+      <h1>Connect Your Ethereum Wallet</h1>
+      <button id="connectWalletButton" class="connect-btn">Connect Wallet</button>
+      <div id="walletInfo" class="wallet-info hidden">
+        <p id="accountAddress" class="account-info">Account: 0x...</p>
+        <p id="tokenBalance" class="balance-info">Balance: 0.0 ETH</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
+
